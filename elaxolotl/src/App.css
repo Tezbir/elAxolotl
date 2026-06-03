@@ -10,11 +10,30 @@
   font-family: 'Smokum-Regular';
   src: url('./assets/fonts/Smokum-Regular.ttf') format('truetype');
 }
-html,
-body,
-#root {
+html {
   margin: 0;
   min-height: 100%;
+  background-color: #3b5f3e;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #3b5f3e;
+  background-image: linear-gradient(
+    180deg,
+    #3b5f3e 0%,
+    #6e765f 30%,
+    #9b5a55 70%,
+    #7a2d2d 100%
+  );
+  background-repeat: no-repeat;
+}
+
+#root {
+  min-height: 100vh;
+  background: transparent;
+
 
   background: linear-gradient(
     180deg,
@@ -37,21 +56,23 @@ body,
 }
 
 .landing {
-  font-family: 'Rye-Regular', sans-serif;
-  font-size: 5rem;
+  min-height: 100vh;
+  width: 100%;
   margin: 0;
+  padding: 2rem 1rem 3rem;
   color: #04400b;
-  letter-spacing: 2px;
+  text-align: center;
+  box-sizing: border-box;
 }
+
 .landing h1 {
   font-family: 'Rye-Regular', sans-serif;
   font-size: 5.7rem;
   color: #3b5f3e;
-  min-height: 100vh;
-  padding-top: 2rem;
-  padding-bottom: 3rem;
+  margin: 0;
   text-align: center;
 }
+
 .subtitle {
   padding: 30px;
   font-family: 'Rye-Regular', sans-serif;
