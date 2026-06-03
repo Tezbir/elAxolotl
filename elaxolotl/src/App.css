@@ -10,10 +10,11 @@
   font-family: 'Smokum-Regular';
   src: url('./assets/fonts/Smokum-Regular.ttf') format('truetype');
 }
-
-body {
+html,
+body,
+#root {
   margin: 0;
-  min-height: 100vh;
+  min-height: 100%;
 
   background: linear-gradient(
     180deg,
@@ -46,7 +47,10 @@ body {
   font-family: 'Rye-Regular', sans-serif;
   font-size: 5.7rem;
   color: #3b5f3e;
-  margin: 5;
+  min-height: 100vh;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  text-align: center;
 }
 .subtitle {
   padding: 30px;
