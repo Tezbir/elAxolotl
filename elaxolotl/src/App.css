@@ -10,9 +10,22 @@
   font-family: 'Smokum-Regular';
   src: url('./assets/fonts/Smokum-Regular.ttf') format('truetype');
 }
+html,
 body {
   margin: 0;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+body {
   min-height: 100vh;
+}
+
+/* Fixed background layer */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
 
   background: linear-gradient(
     180deg,
@@ -22,9 +35,11 @@ body {
     #7a2d2d 100%
   );
 
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
+  z-index: -1;
+}
+
+#root {
+  min-height: 100vh;
 }
 
 .main-logo {
