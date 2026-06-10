@@ -13,14 +13,14 @@
 html {
   margin: 0;
   min-height: 100%;
-  background-color: #3b5f3e;
+  background-color: #568d5b;
 }
 
 body {
   margin: 0;
   min-height: 100vh;
   overflow-x: hidden;
-  background-color: #3b5f3e;
+  background-color: #568d5b;
   position: relative;
 }
 
@@ -32,10 +32,10 @@ body::before {
 
   background: linear-gradient(
     180deg,
-    #3b5f3e 0%,
-    #6e765f 30%,
-    #9b5a55 70%,
-    #7a2d2d 100%
+  #568d5b 0%,
+  #8a9279 50%,
+  #bf756e 75%,
+  #994545 100%
   );
 }
 
@@ -58,7 +58,7 @@ body::before {
   width: 100%;
   margin: 0;
   padding: 2rem 1rem 3rem;
-  color: #04400b;
+  color: #3b24aa;
   text-align: center;
   box-sizing: border-box;
 }
@@ -66,7 +66,7 @@ body::before {
 .landing h1 {
   font-family: 'Rye-Regular', sans-serif;
   font-size: clamp(2.6rem, 11vw, 5.7rem);
-  color: #3b5f3e;
+  color: #3b24aa;
   margin: 0;
   text-align: center;
   line-height: 1.05;
@@ -76,7 +76,7 @@ body::before {
   padding: 30px;
   font-family: 'Rye-Regular', sans-serif;
   font-size: 2rem;
-  color: #2b2118;
+  color: #3b24aa;
 }
 
 .address {
@@ -84,18 +84,18 @@ body::before {
   line-height: 1.1;
   font-family: 'Rye-Regular', sans-serif;
   font-size: 1.5rem;
-  color: #2b2118;
+  color: #3b24aa;
 }
 .phone {
   text-decoration: none;
-  color: #2b2118;
+  color: #3b24aa;
 }
 
 .phone h2 {
   margin: 0;
   font-family: 'Rye-Regular', sans-serif;
   text-decoration: none;
-  color: #2b2118;
+  color: #3b24aa;
 }
 .instagram-link{
   text-decoration: none;
@@ -103,7 +103,7 @@ body::before {
 .instagram-link h2{
   font-family: 'Rye-Regular', sans-serif;
   text-decoration: none;
-  color: #2b2118;
+  color: #3b24aa;
 }
 .button-container {
   margin-top: 40px;
@@ -119,7 +119,7 @@ body::before {
   width: 180px;
   height: 120px;
 
-  background-color: #2b2118;
+  background-color: #3b24aa;
   color: #c5c7c6;
 
   display: flex;
@@ -139,7 +139,7 @@ body::before {
 .menu-box {
   width: 280px;
   height: 180px;
-   background-color: #2b2118;
+   background-color: #3b24aa;
   color: #c5c7c6;
 
   display: flex;
@@ -183,7 +183,7 @@ body::before {
 .juices-title {
   font-family: 'Chicle-Regular', sans-serif;
   font-size: 4rem;
-  color: #47202a;
+  color: #3b24aa;
 
   margin-top: 70px;
   margin-bottom: 20px;
@@ -202,19 +202,20 @@ body::before {
 .juices-options {
   font-family: 'Chicle-Regular', sans-serif;
   font-size: 1.5rem;
-  color: #0f0630;
+  color: #3b24aa;
   margin: 22px 0;
   padding: 0 15px;
   line-height: 1.4;
 }
 .about {
-  margin-top: 15px;
-  color:#04400b;
-  font-family: 'Smokum-Regular', sans-serif;
+  margin-top: 20px;
+  color: #3b24aa;
+  font-family: 'Chicle-Regular', sans-serif;
   font-size: 1.8rem;
   padding-top: 80px;
   padding: 0 50px;
   padding-bottom: 50px;
+  line-height: 1.5;
 
 }
 .homepage-images {

@@ -4,6 +4,9 @@ import locationImg from './assets/location.png'
 import menuPicture from './assets/menupicture.jpg'
 import elaxolotlfood1 from './assets/elaxolotlfood1.jpg'
 import elaxolotlfood2 from './assets/elaxolotlfood2.jpg'
+import tacos from './assets/tacos.png'
+import tacos2 from './assets/tacos2.png'
+import mainDish from './assets/mainDish.png'
 
 function App() {
 
@@ -74,7 +77,17 @@ function App() {
           />
 
           <img
-            src={elaxolotlfood2}
+            src={tacos}
+            alt="El Axolotl Food"
+            className="homepage-image"
+          />
+          <img
+            src={tacos2}
+            alt="El Axolotl Food"
+            className="homepage-image"
+          />
+          <img
+            src={mainDish}
             alt="El Axolotl Food"
             className="homepage-image"
           />
@@ -82,7 +95,11 @@ function App() {
         
         <div className="about">
           <p>
-            El Axolotl is a family owned restaurant located in Port Jefferson Station, New York that serves authentic Mexican and Latin cuisine with homemade taste.
+           El Axolotl is a family-owned restaurant located in Port Jefferson Station,
+            New York that serves authentic Mexican and Latin cuisine with homemade taste. 
+           Our menu features tacos, tortas, fresh appetizers, traditional Mexican
+            favorites, and Latin-inspired dishes made with quality ingredients. We
+             proudly serve Port Jefferson Station and the surrounding Long Island communities.
           </p>
         </div>
 
