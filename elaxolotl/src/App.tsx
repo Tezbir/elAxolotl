@@ -6,6 +6,7 @@ import elaxolotlfood1 from './assets/elaxolotlfood1.jpg'
 import tacos from './assets/tacos.png'
 import tacos2 from './assets/tacos2.png'
 import mainDish from './assets/mainDish.png'
+import dessert2 from './assets/dessert2.png'
 
 function App() {
 
@@ -87,6 +88,11 @@ function App() {
           />
           <img
             src={mainDish}
+            alt="El Axolotl Food"
+            className="homepage-image"
+          />
+          <img
+            src={dessert2}
             alt="El Axolotl Food"
             className="homepage-image"
           />
